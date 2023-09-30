@@ -2,7 +2,7 @@
   base = "src"              # Specify the directory where your React app source code resides
   publish = "public"        # Specify the directory where the optimized build will be
 
-  command = "npm run build" # The command to build your React app
+  command = "CI='' npm run build" # The command to build your React app
 
 [build.environment]
   # You can set environment variables if needed
